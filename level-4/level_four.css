@@ -24,3 +24,32 @@ body {
     padding: 5px;
     width: 250px;
   }
+.container {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.item {
+
+  flex: 1 1 300px;
+
+  border: 1px solid #ccc;
+
+  padding: 15px;
+
+  margin-bottom: 20px;
+
+}
+
+.item img.album {
+
+  max-width: 100%;
+
+  height: auto;
+}
